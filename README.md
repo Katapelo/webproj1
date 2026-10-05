@@ -37,6 +37,20 @@ To run this project locally, ensure you have the following installed:
 ## Installation & Setup
 
 1. **Clone the repository** (or create the project directory):
-   ```bash
-   git clone <repository-url>
-   cd user-backend
+ ```bash
+git clone https://github.com/Katapelo/webproj1.git
+cd webproj1
+npm install
+```
+2. **Install dependencies**
+```bash
+npm install
+
+npm install-scripts approve sqlite3
+npm rebuild sqlite3
+```
+
+3. **Start Application**
+```bash
+node server.js
+```
